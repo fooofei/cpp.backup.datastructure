@@ -1,0 +1,10 @@
+4
+3
+1
+a
+b
+c
+d
+a b shabi
+a c 0
+d c nima

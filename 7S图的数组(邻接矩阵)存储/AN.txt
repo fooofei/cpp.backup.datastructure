@@ -1,0 +1,10 @@
+3
+3
+1
+a
+b
+c
+a b 3 hah
+a c 4 shiba
+b c 5 nima
+

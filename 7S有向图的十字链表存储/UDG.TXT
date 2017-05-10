@@ -1,0 +1,33 @@
+8
+14
+0
+a
+b
+c
+d
+e
+f
+g
+h
+a b
+a c
+b e
+b d
+b c
+c d
+c h
+h g
+h d
+d e
+d f
+d g
+e f
+f g
+
+
+
+
+深度优先遍历:
+a c h d g b e f
+广度优先遍历:
+a c b h d e g f

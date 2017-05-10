@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "表达式求值(中缀变后缀)", "表达式求值(中缀变后缀)\表达式求值(中缀变后缀).vcproj", "{DB1EB3DC-7977-400F-89FF-997471EDEFD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB1EB3DC-7977-400F-89FF-997471EDEFD0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB1EB3DC-7977-400F-89FF-997471EDEFD0}.Debug|Win32.Build.0 = Debug|Win32
+		{DB1EB3DC-7977-400F-89FF-997471EDEFD0}.Release|Win32.ActiveCfg = Release|Win32
+		{DB1EB3DC-7977-400F-89FF-997471EDEFD0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

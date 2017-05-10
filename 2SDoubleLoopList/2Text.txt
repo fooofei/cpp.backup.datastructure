@@ -1,0 +1,62 @@
+
+
+typedef struct DuLNode
+{
+	int data;
+	struct DuLNode *prior,*next;
+ }DuLNode,*DuLinkList;
+
+
+
+/* 产生空的双向循环链表L */
+bool InitList(DuLinkList* L);
+
+/* 操作结果：销毁双向循环链表L */
+bool DestroyList(DuLinkList* L);
+
+/* 初始条件：L已存在。操作结果：将L重置为空表 */
+bool ClearList(DuLinkList L);
+
+/* 初始条件：线性表L已存在。操作结果：若L为空表，则返回TRUE，否则返回FALSE */
+bool ListEmpty(DuLinkList L);
+
+/* 初始条件：L已存在。操作结果：返回L中数据元素个数 */
+int ListLength(DuLinkList L);
+
+/* 当第i个元素存在时,其值赋给e并返回OK,否则返回ERROR */
+bool GetElem(DuLinkList L,int i,int* e);
+
+
+/* 初始条件：L已存在，compare()是数据元素判定函数 */
+/* 操作结果：返回L中第1个与e满足关系compare()的数据元素的位序。 */
+/*           若这样的数据元素不存在，则返回值为0 */
+int LocateElem(DuLinkList L,int e,bool (*Compare)(int a,int b));
+
+
+/* 操作结果：若cur_e是L的数据元素，且不是第一个，则用pre_e返回它的前驱， */
+/*           否则操作失败，pre_e无定义 */
+bool PriorElem(DuLinkList L,int cur_e,int* pre_e);
+
+
+
+/* 操作结果：若cur_e是L的数据元素，且不是最后一个，则用next_e返回它的后继， */
+/*           否则操作失败，next_e无定义 */
+bool NextElem(DuLinkList L,int cur_e,int* next_e);
+
+
+
+/* 在双向链表L中返回第i个元素的位置指针*/
+DuLinkList GetElemP(DuLinkList L,int i);
+
+
+ /* 在带头结点的双链循环线性表L中第i个位置之前插入元素e，i的合法值为1≤i≤表长+1 */
+bool ListInsert(DuLinkList L,int i,int e);
+
+
+
+ /* 删除带头结点的双链循环线性表L的第i个元素,i的合法值为1≤i≤表长+1 */
+bool ListDelete(DuLinkList L,int i,int* e);
+
+
+
+void ListTraverse(DuLinkList L,void (*visit)(int a));

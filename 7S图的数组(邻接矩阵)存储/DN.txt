@@ -1,0 +1,10 @@
+3
+4
+1
+a
+b
+c
+a b 3 a->b
+c a 4 c->a
+b c 5 b->c
+c d 9 c->b

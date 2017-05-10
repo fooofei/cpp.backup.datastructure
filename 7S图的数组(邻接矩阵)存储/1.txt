@@ -1,0 +1,9 @@
+4
+2
+1
+a
+b
+c
+d
+a b shabi
+a c 0
