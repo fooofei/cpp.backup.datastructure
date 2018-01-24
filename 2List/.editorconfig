@@ -1,0 +1,10 @@
+root=true
+
+#C++
+[*.{c,cpp,h}]
+charset=utf-8
+end_of_line=lf
+insert_final_newline=true # for old CentOS compile
+indent_style=space
+indent_size=4
+tab_width=4
