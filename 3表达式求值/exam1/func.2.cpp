@@ -7,7 +7,7 @@
 #include <stdint.h>
 #include <inttypes.h>
 
-#include "testlib.h"
+// #include "testlib.h"
 
 
 /* 整个代码分为两个部分 lexer parser 对应 词法解析 语法解析 */
